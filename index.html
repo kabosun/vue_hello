@@ -1,0 +1,17 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+    {{message}}
+    <p v-if="open">Test Display</p>
+</div>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            message: "hello world!!",
+            open: true
+        }
+    })
+</script>
+
