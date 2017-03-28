@@ -2,7 +2,7 @@
 
 <div id="app">
     {{message}}
-    <p v-if="open">Test Display</p>
+    <p v-if="open_flg">View!</p>
 </div>
 
 <script>
@@ -10,7 +10,7 @@
         el: "#app",
         data: {
             message: "hello world!!",
-            open: true
+            open_flg: true
         }
     })
 </script>
